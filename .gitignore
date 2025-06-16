@@ -1,3 +1,6 @@
 *.class
-/bin
-/settings
+/bin/
+/.settings/
+/.project
+.classpath
+/target/
