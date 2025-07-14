@@ -1,67 +1,54 @@
-<<<<<<< HEAD
-# BridgeLabz-SIPP-Training
-=======
-# Core-Java Workspace
+## LinkedList
 
-This repository contains a comprehensive set of Java exercises and solutions, organized by topic and difficulty. Each folder contains modular Java programs for practice and learning, from basic programming elements to advanced string and date operations.
-
-## Folder Structure
-
-**********************************Day-1**********************************************************
-### ProgrammingElements
-- **Level1/Level2**: Foundational Java programs for basic programming concepts (calculators, converters, area, averages, etc.)
-
-
-***********************************Day-2********************************************************
-### ControlFlows
-- **Level-1**: Simple control flow exercises (loops, conditions, number sign, voting eligibility, etc.)
-- **Level-2**: Intermediate control flow (factors, FizzBuzz, multiples, power, etc.)
-- **Level-3**: Advanced control flow (abundant/Armstrong/Harshad numbers, leap year, calculators, etc.)
+- [CircularTaskManager.java](LinkedList/CircularTaskManager.java): Implements a circular task manager using linked lists.
+- [EditorApp.java](LinkedList/EditorApp.java): Simple text editor application using linked lists.
+- [InventorySystem.java](LinkedList/InventorySystem.java): Manages inventory items with linked list data structure.
+- [LibraryManagementSystem.java](LinkedList/LibraryManagementSystem.java): Library management system using linked lists for book records.
+- [MovieManager.java](LinkedList/MovieManager.java): Manages a collection of movies using linked lists.
+- [ReservationApp.java](LinkedList/ReservationApp.java): Handles reservations using linked lists.
+- [RoundRobinScheduler.java](LinkedList/RoundRobinScheduler.java): Implements round-robin scheduling with linked lists.
+- [Social.java](LinkedList/Social.java): Social network features using linked lists.
+- [StudentRecord.java](LinkedList/StudentRecord.java): Manages student records using linked lists.
 
 
-**********************************Day-3**********************************************************
-### Arrays
-- **Level-1**: Basic array operations (copying, factors, FizzBuzz, mean, multiplication tables, etc.)
-- **Level 2**: Intermediate array problems (BMI, bonus calculation, digit frequency, student grades, etc.)
+## StacksAndQueues
 
+- [CircularTour.java](StacksAndQueues/CircularTour.java): Solves the circular tour (petrol pump) problem using queues.
+- [CustomHashMap.java](StacksAndQueues/CustomHashMap.java): Custom implementation of a hash map.
+- [FindAllZeroSumSubarrays.java](StacksAndQueues/FindAllZeroSumSubarrays.java): Finds all subarrays with zero sum.
+- [LongestConsecutiveSequence.java](StacksAndQueues/LongestConsecutiveSequence.java): Finds the longest consecutive sequence in an array.
+- [PairWithGivenSum.java](StacksAndQueues/PairWithGivenSum.java): Finds pairs with a given sum in an array.
+- [PetrolPump.java](StacksAndQueues/PetrolPump.java): Solves the petrol pump problem using queues.
+- [QueueUsingStacks.java](StacksAndQueues/QueueUsingStacks.java): Implements a queue using two stacks.
+- [SlidingWindowMaximum.java](StacksAndQueues/SlidingWindowMaximum.java): Finds the maximum in each sliding window of an array.
+- [SortStackRecursion.java](StacksAndQueues/SortStackRecursion.java): Sorts a stack using recursion.
+- [StockSpan.java](StacksAndQueues/StockSpan.java): Solves the stock span problem using stacks.
+- [TwoSumProblem.java](StacksAndQueues/TwoSumProblem.java): Finds two numbers that sum to a target value.
 
-**********************************Day-4**********************************************************
-### JavaMethods
-- **Level-1**: Basic methods (interest calculation, handshakes, trigonometry, etc.)
-- **Level-2**: Intermediate method-based problems (BMI, factors, leap year, etc.)
-- **Level-3**: Advanced method-based problems (calendar, collinearity, matrix, OTP, scorecard, etc.)
+## LinearBinarySearch
 
+- [ByteToCharStream.java](LinearBinarySearch/ByteToCharStream.java): Demonstrates byte to char stream conversion.
+- [CompareBuffer.java](LinearBinarySearch/CompareBuffer.java): Compares buffer contents for equality.
+- [ConcatenateString.java](LinearBinarySearch/ConcatenateString.java): Concatenates strings efficiently.
+- [countWordInfile.java](LinearBinarySearch/countWordInfile.java): Counts words in a file.
+- [FindPeak.java](LinearBinarySearch/FindPeak.java): Finds a peak element in an array.
+- [FirstLastOccurence.java](LinearBinarySearch/FirstLastOccurence.java): Finds first and last occurrence of an element.
+- [FirstNegative.java](LinearBinarySearch/FirstNegative.java): Finds the first negative number in an array.
+- [InputToFile.java](LinearBinarySearch/InputToFile.java): Demonstrates input to file operations.
+- [LineByLineFileReader.java](LinearBinarySearch/LineByLineFileReader.java): Reads a file line by line.
+- [RemoveDuplicate.java](LinearBinarySearch/RemoveDuplicate.java): Removes duplicate elements from an array.
+- [ReverseString.java](LinearBinarySearch/ReverseString.java): Reverses a string.
+- [RotationPoint.java](LinearBinarySearch/RotationPoint.java): Finds the rotation point in a rotated array.
+- [Search2Dmatrix.java](LinearBinarySearch/Search2Dmatrix.java): Searches for an element in a 2D matrix.
+- [SearchChallenge.java](LinearBinarySearch/SearchChallenge.java): Various search challenges and problems.
+- [SearchWord.java](LinearBinarySearch/SearchWord.java): Searches for a word in a file or array.
 
-**********************************Day-6**********************************************************
-### JavaStrings
-- **Level-1**: String basics (comparison, substring, char array conversion, exceptions, case conversion, etc.)
-- **Level-2**: String manipulation (manual length, splitting, word analysis, vowels/consonants, trimming, voting, games, scorecard, etc.)
-- **Level-3**: Advanced string logic (BMI table, unique chars, frequency, palindrome, anagram, calendar, deck of cards, etc.)
+## SortingAlgorithms
 
-
-
-**********************************Day-7**********************************************************
-### BuiltInFunction
-- Java programs demonstrating the use of built-in functions and standard libraries:
-    - Number guessing game
-    - Max of three numbers
-    - Prime checker
-    - Fibonacci sequence
-    - Palindrome checker
-    - Factorial (recursion)
-    - GCD/LCM calculator
-    - Temperature converter
-    - Basic calculator
-    - Time zones with `ZonedDateTime`
-    - Date arithmetic, formatting, and comparison
-
-
-## How to Use
-- Each `.java` file is self-contained and can be compiled and run independently.
-- Explore each folder for topic-specific exercises and solutions.
-- Use these as practice, reference, or teaching material for Java programming.
-
----
-
-**Note:** Some files may contain warnings about unclosed resources (e.g., `Scanner`). For best practices, close resources after use.
->>>>>>> 4332584 (Added OOPS assignments)
+- [BubbleSort.java](SortingAlgorithms/BubbleSort.java): Implements bubble sort algorithm.
+- [CountingSort.java](SortingAlgorithms/CountingSort.java): Implements counting sort algorithm.
+- [HeapSort.java](SortingAlgorithms/HeapSort.java): Implements heap sort algorithm.
+- [InsertionSort.java](SortingAlgorithms/InsertionSort.java): Implements insertion sort algorithm.
+- [MergeSort.java](SortingAlgorithms/MergeSort.java): Implements merge sort algorithm.
+- [QuickSort.java](SortingAlgorithms/QuickSort.java): Implements quick sort algorithm.
+- [SelectionSort.java](SortingAlgorithms/SelectionSort.java): Implements selection sort algorithm.
